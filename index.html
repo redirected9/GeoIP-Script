@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    
+    <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no" name="viewport">
+
+    <title>Why Did No One Tell Drivers With No Tickets In 3 Years About This New Rule?</title>
+    <link href="./cis_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./cis_files/base.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <style>
+    .async-hide { opacity: 0 !important} 
+    </style>
+   
+
+    <script src="./cis_files/jquery-3.1.1.min.js" type="text/javascript">
+    </script>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="https://js.maxmind.com/js/apis/geoip2/v2.1/geoip2.js" type="text/javascript"></script>
+
+<script>
+        var onSuccess = function(geoipResponse) {
+            // unknown city etc is really weird looking. Just leave it empty.
+            
+            var cityElement = document.getElementById('city');
+            if (cityElement) {
+                cityElement.textContent = geoipResponse.city.names.en || '';
+            }
+ 
+            var countryElement = document.getElementById('country');
+            if (countryElement) {
+                countryElement.textContent = geoipResponse.country.names.en || '';
+            }
+
+            var regionElement = document.getElementById('region');
+            if (regionElement) {
+                regionElement.textContent = geoipResponse.most_specific_subdivision.names.en || '';
+            }
+
+          
+            var mainImage = document.getElementById('mainImage');
+            if (mainImage && geoipResponse.subdivisions[0].iso_code) {
+                mainImage.src = "./cis_files/" + geoipResponse.subdivisions[0].iso_code + ".jpg";
+            }
+        };
+ 
+        var onError = function(error) {
+            window.console.log("something went wrong: " + error.error)
+        };
+ 
+        var onLoad = function() {
+            geoip2.city(onSuccess, onError);
+        };
+ 
+        // Run the lookup when the document is loaded and parsed. You could
+        // also use something like $(document).ready(onLoad) if you use jQuery.
+        document.addEventListener('DOMContentLoaded', onLoad);
+        </script>
+   
+  
+</head>
+
+<body data-gr-c-s-loaded="true">
+   
+
+
+    <div class="containerHeader">
+        <div class="container">
+            <header class="text-right">
+                <a href="http://collicts-unityprus.com/click" target="_blank"><button>Find My Rate - Enter Zip Code »</button></a>
+            </header>
+        </div>
+    </div>
+    <!--END HEADER-->
+    <!--MAIN BODY-->
+
+
+    <div class="container containerBody">
+        <div class="articleInfo text-center">
+            <p style="text-align: center; font-size: 14px;">
+                                  <a href="#" target="_blank" style="text-decoration: none;">Home</a> | 
+                                  <a href="http://thedaily-newshub.com/privacy-policy-2/" target="_blank" style="text-decoration: none;">Privacy Policy</a> |
+                                  <a href="http://thedaily-newshub.com/cookie-privacy-policy/" target="_blank" style="text-decoration: none;">About Us</a> |
+                                  <a href="http://thedaily-newshub.com/cookie-privacy-policy/" target="_blank" style="text-decoration: none;">Contact</a><br /></p>
+
+
+            <span class="advertorialText">Advertorial</span><br class="visible-xs">
+            <span class="hidden-xs">•</span> <span class="articleCategory">AUTO INSURANCE</span> <span>•</span> <span class="articleDate">August 18, 2019</span>
+        </div>
+
+
+        <div class="articleInfo text-center">
+            <span></span> <span></span>
+        </div>
+
+
+        <h1>Why Did No One Tell Drivers With No Tickets In 3 Years About This New Rule?</h1>
+
+
+        <div class="containerArticleImage">
+            <a class="outlink" href="http://collicts-unityprus.com/click" target="_blank"><img id="mainImage" class="img-responsive" src="./cis_files/NJ.jpg"></a>
+        </div>
+
+
+
+
+      
+
+
+        <div class="articleBody">
+            <div>
+                <!-- START NASCAR LOGOS MACRO -->
+
+
+                <div class="trusted"><img class="img-responsive center-block" src="./cis_files/ads_seen_on.png">
+                </div>
+                <!-- END NASCAR LOGOS MACRO -->
+            </div>
+
+
+
+            <p><strong><span id="region"></span> Drivers :</strong> This is the 1 simple truth your car insurance company doesn't want you to know. If you are currently insured, drive less than 50 miles/day and live in a qualified zip code <a href="http://collicts-unityprus.com/click" target="_blank">you can get an extremely high discount</a>. Additionally, if you have no DUIs, you can get even more discounts. But do you think your auto insurance company will tell you that?</p>
+
+
+            <p>When Miranda entered her zip code at <a href="http://collicts-unityprus.com/click" target="_blank">Insurance.Comparisons.org</a>, she was shocked. She found out her local insurance agent was ripping her off, and she could get car insurance much cheaper.</p>
+
+
+            <blockquote>
+                "We managed to reduce our insurance premium by 50%! I only wish we had discovered this sooner.", Miranda exclaimed.
+            </blockquote>
+
+
+            <p>When drivers visit unbiased sites like Insurance.Comparisons.org, they can view all the best rates in their area. Survey data indicates it is possible to save $500+ per year on their car insurance rates.</p>
+
+
+            <p><strong>The "rule" that everyone needs to know -- NEVER buy insurance without comparing rates and discounts from an unbiased source first.</strong>
+            </p>
+
+
+            <div>
+                <a href="http://collicts-unityprus.com/click" target="_blank"><img class="img-responsive" src="./cis_files/5ca24543d0ad7a07725d5232.jpg"></a>
+            </div>
+            <br>
+
+
+            <p>Are you being overcharged by your insurance agent? It is highly likely you are. Take two minutes out of your day to protect yourself from overpaying.</p>
+
+
+            <p>NOTE: You’re NEVER LOCKED into your current policy. If you’ve already paid your current policy, you can very easily cancel and the balance will be refunded.</p>
+
+
+            <h2>Here's How You Do It</h2>
+
+
+            <p><strong>Step 1:</strong> Simply tap your age below &amp; <a href="http://collicts-unityprus.com/click" target="_blank">enter your zip code</a> on the next page.</p>
+
+
+            <p><strong>Step 2:</strong> Fill out some basic information in order to review quotes from top companies.</p>
+
+
+            <div class="containerAge">
+                <h3>Select Your Age:</h3>
+
+
+                <div class="row">
+                    <a href="http://collicts-unityprus.com/click" target="_blank">
+                    <div class="col-sm-2 col-xs-4 buttonAge">
+                        16-24
+                    </div></a> <a href="http://collicts-unityprus.com/click" target="_blank">
+                    <div class="col-sm-2 col-xs-4 buttonAge">
+                        25-34
+                    </div></a> <a href="http://collicts-unityprus.com/click" target="_blank">
+                    <div class="col-sm-2 col-xs-4 buttonAge">
+                        35-44
+                    </div></a> <a href="http://collicts-unityprus.com/click" target="_blank">
+                    <div class="col-sm-2 col-xs-4 buttonAge">
+                        45-54
+                    </div></a> <a href="http://collicts-unityprus.com/click" target="_blank">
+                    <div class="col-sm-2 col-xs-4 buttonAge">
+                        55-64
+                    </div></a> <a href="http://collicts-unityprus.com/click" target="_blank">
+                    <div class="col-sm-2 col-xs-4 buttonAge">
+                        65+
+                    </div></a>
+                </div>
+            </div>
+            <a href="http://collicts-unityprus.com/click" target="_blank"><button>Find My Rate - Enter Zip Code »</button></a>
+        </div>
+       
+    </div>
+    <!--END MAIN BODY-->
+    <!--FOOTER-->
+
+
+    <div class="containerFooter">
+        <div class="container">
+            <footer class="text-center">
+                <div class="footerLogo">
+                </div>
+
+
+                <ul class="list-inline footerNav">
+                    <li>
+                        <a href="http://collicts-unityprus.com/click"></a>
+                    </li>
+
+
+                    <li>
+                        <a href="http://thedaily-newshub.com/cookie-privacy-policy/" target="_blank">About Us</a>
+                    </li>
+
+
+                    <li>
+                        <a href="http://thedaily-newshub.com/privacy-policy-2/" target="_blank">Privacy Policy</a>
+                    </li>
+
+
+                    <li>
+                        <a href="http://thedaily-newshub.com/privacy-policy-2/" target="_blank">Terms of Use</a>
+                    </li>
+                </ul>
+                ©2018-2019 All rights reserved.
+            </footer>
+        </div>
+    </div>
+   
+
+</body>
+</html>
